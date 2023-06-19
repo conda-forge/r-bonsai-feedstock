@@ -1,11 +1,11 @@
-About r-bonsai
-==============
+About r-bonsai-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bonsai-feedstock/blob/main/LICENSE.txt)
 
 Home: https://bonsai.tidymodels.org/, https://github.com/tidymodels/bonsai
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-bonsai-feedstock/blob/main/LICENSE.txt)
 
 Summary: Bindings for additional tree-based model engines for use with the 'parsnip' package. Models include gradient boosted decision trees with 'LightGBM' (Ke et al, 2017.) and conditional inference trees and conditional random forests with 'partykit' (Hothorn and Zeileis, 2015. and Hothorn et al, 2006. <doi:10.1198/106186006X133933>).
 
