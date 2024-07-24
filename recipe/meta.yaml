@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bonsai_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bonsai/bonsai_{{ version }}.tar.gz
-  sha256: 18789879bbe98e93cb35b7fede43650dd814bbf4660f1731be9b509a308d27c3
+  sha256: 3bea0a8393c936bfe2a94d71d04a89e7ea7c14732495e283cfced00c5a586406
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
