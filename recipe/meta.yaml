@@ -1,4 +1,4 @@
-{% set version = "0.4.1" %}
+{% set version = "0.5.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/bonsai_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/bonsai/bonsai_{{ version }}.tar.gz
-  sha256: 6bc2ed940b310264baaf1cbaf188019e4f8ed143bdd4c27d641f8b54df0c4ab0
+  sha256: adb82af53eece459f476cb6e14af6c2468091ae8ecd7471d95bd5a1192fcded2
 
 build:
   number: 0
